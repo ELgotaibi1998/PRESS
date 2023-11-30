@@ -1,0 +1,964 @@
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./image/sada.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+         
+        <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <title> صدى المواطن</title>
+  </head>
+
+ <body>
+ <!-- navbar -->
+    <div>
+         <nav class="navbar  fixed-top"  style="background-color: #190a8a">
+        <div class="container-fluid"  >
+        <span id='navSpan'>
+           
+            <a href="https://web.facebook.com/profile.php?id=61551358856322">
+            <button class="btn btn-secondary">
+      <svg class="bi bi-facebook sociaux " xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"   viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+            </button></a>
+            
+              <a href="https://www.linkedin.com/in/sada-mowatine-535317291/">
+              <button class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+              </button></a>
+               
+                <a href="https://www.instagram.com/sadamowatine/">
+                <button class="btn btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </button></a>
+                 
+                <a href="https://twitter.com/SMowatine53030">
+                  <button class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                  </button></a>
+               
+                  <a href="https://www.youtube.com/@SadaMowatine/featured">
+                  <button class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                    </svg>
+                  </button></a></span>
+                    <form class="d-flex mt-3" role="search" id='form'>
+            <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search"/>
+            <button class="btn btn-secondary" type="submit">بحث</button>
+          </form>
+          <a class="navbar-brand" href="#"><a class="navbar-brand" href="#" id="id2" style="color: white"> <img src="./image/sada.jpeg"   width="100px"  /></a></a>  
+          
+          <button class=" btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" style="  color: white" width="35" height="35" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16" >
+  <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+         
+          </button>
+          <div class="offcanvas offcanvas-end  " style="background-color: #100563;color:white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header " style="color:white">
+              <h5 class="offcanvas-title"   style="color:white">صدى المواطن</h5>
+              <button type="button" class="btn-close btn-close-white"   data-bs-dismiss="offcanvas" aria-label="Close"></button>
+             
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="color:white">
+             
+                
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=science" style="color:white">العلوم <img src="https://th.bing.com/th/id/R.c77a3a6a7a779178bdc357808b895e90?rik=tbCvV%2bTdnxIQCA&pid=ImgRaw&r=0" alt=""  style="width:20px"/></a ></h5>
+                </li> 
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=societe" style="color:white">المجتمع <img src="https://th.bing.com/th/id/R.14dfdd35187abde1d1adc3058dcce375?rik=S7IfRdTeE2ZFWA&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=region" style="color:white">الجهات <img src="https://th.bing.com/th/id/OIP.0DfDx_uJF-3nHjDJjIWT_gHaIy?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=art  " style="color:white">فن وثقافة <img src="https://th.bing.com/th/id/OIP.Nd9rSGRhXqyInkP82Q2yDwHaHi?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=world" style="color:white">   أخبار العالم <img src="https://thumbs.dreamstime.com/b/news-world-globe-earth-vector-icon-web-newsletter-app-symbol-news-world-globe-vector-icon-web-newsletter-app-linear-symbol-139070657.jpg" alt="" style="width:20px" /></a ></h5>
+                </li>
+              
+              
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=sport " style="color:white">الرياضة <img src="https://www.marathontrainingacademy.com/wp-content/uploads/2016/05/noun_61513.png" alt=""  style="width:20px;color:white;background-color:white"/></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=politique" style="color:white">السياسة <img src="https://th.bing.com/th/id/R.9c8aa02d3e624b668ea7c4f285ece492?rik=U8QzvTFG%2bq%2fe1Q&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link" href="./page2.html?x=economie" style="color:white">الأقتصاد  <img src="https://th.bing.com/th/id/OIP.zEZpEXOPKsbtRNoJSuAB9QHaHa?pid=ImgDet&rs=1" alt=""  style="width:20px"/></a ></h5>
+                </li>
+                <li class="nav-item"><h5>
+                  <a class="nav-link active" aria-current="page" href="#" style="color:white">الرئيسية <i class="fa-sharp fa-solid fa-house fa-beat"></i></a></h5>
+                </li>
+                <li class="nav-item">
+                 
+                  <span  >
+             
+              <a href="https://web.facebook.com/profile.php?id=61551358856322">
+              <button class="btn btn-secondary">
+        <svg class="bi bi-facebook sociaux " xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"   viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+              </button></a>
+              
+                <a href="https://www.linkedin.com/in/sada-mowatine-535317291/">
+                <button class="btn btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </button></a>
+                 
+                  <a href="https://www.instagram.com/sadamowatine/">
+                  <button class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                  </button></a>
+                   
+                  <a href="https://twitter.com/SMowatine53030">
+                    <button class="btn btn-secondary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                    </button></a>
+                 
+                    <a href="https://www.youtube.com/@SadaMowatine/featured">
+                    <button class="btn btn-secondary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                      </svg>
+                    </button></a></span>
+              </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+      </nav><br/><br/> 
+      <nav class="navbar navbar-expand-lg   " id="nav13">
+  <div class="container-fluid">
+      
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"  style="color:black">
+             
+                
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=science"  style="color:black">العلوم <img src="https://th.bing.com/th/id/R.c77a3a6a7a779178bdc357808b895e90?rik=tbCvV%2bTdnxIQCA&pid=ImgRaw&r=0" alt=""  style="width:20px"/></a ></h5>
+        </li> 
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=societe"  style="color:black">المجتمع <img src="https://th.bing.com/th/id/R.14dfdd35187abde1d1adc3058dcce375?rik=S7IfRdTeE2ZFWA&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=region"  style="color:black">الجهات <img src="https://th.bing.com/th/id/OIP.0DfDx_uJF-3nHjDJjIWT_gHaIy?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=art  "  style="color:black">فن وثقافة <img src="https://th.bing.com/th/id/OIP.Nd9rSGRhXqyInkP82Q2yDwHaHi?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=world"  style="color:black">   أخبار العالم <img src="https://thumbs.dreamstime.com/b/news-world-globe-earth-vector-icon-web-newsletter-app-symbol-news-world-globe-vector-icon-web-newsletter-app-linear-symbol-139070657.jpg" alt="" style="width:20px" /></a ></h5>
+        </li>
+      
+      
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=sport "  style="color:black">الرياضة <img src="https://www.marathontrainingacademy.com/wp-content/uploads/2016/05/noun_61513.png" alt=""  style="width:20px;color:white;background-color:white"/></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=politique"  style="color:black">السياسة <img src="https://th.bing.com/th/id/R.9c8aa02d3e624b668ea7c4f285ece492?rik=U8QzvTFG%2bq%2fe1Q&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link" href="./page2.html?x=economie"  style="color:black">الأقتصاد  <img src="https://th.bing.com/th/id/OIP.zEZpEXOPKsbtRNoJSuAB9QHaHa?pid=ImgDet&rs=1" alt=""  style="width:20px"/></a ></h5>
+        </li>
+        <li class="nav-item"><h5>
+          <a class="nav-link active" aria-current="page" href="#"  style="color:black">الرئيسية <i class="fa-sharp fa-solid fa-house fa-beat"></i></a></h5>
+        </li>
+        
+      </ul> 
+    </div>
+  </div>
+</nav> 
+      <marquee  behavior="" direction="right">تدخلات فرق المركز الجهوي للاغاثة التابع لمجلس جهة الشرق لفتح المسالك الطرقية بعد التساقطات المطرية | لمغرب يسجل أكبر عدد لحالات الطلاق | لمغرب يسجل أكبر عدد لحالات الطلاق</marquee>     
+      <header>
+      
+      
+        <section class="slider-container">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    alt="slide1"
+                  />
+                  <h4>الحوادث</h4>
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="https://i1.hespress.com/wp-content/uploads/2023/08/el-bakkali.jpg"
+                    alt="slide1"
+                  />
+                  <h4>الملك محمدالسادس يهنئ سفيان البقالي</h4>
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="https://i1.hespress.com/wp-content/uploads/2023/01/Mohammed-VI-Macron.jpg"
+                    alt="slide1"
+                  />
+                  <h4>لرئيس الفرنسي يهنئ الملك محمد السادس</h4>
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="https://i1.hespress.com/wp-content/uploads/2023/08/conseil-gouvernement4.jpg"
+                    alt="slide1"
+                  />
+                  <h4>أخنوش:أوراش كبرى تنتظر الدخول السياسي</h4>
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="https://i1.hespress.com/wp-content/uploads/2023/08/anniversaire.jpg"
+                    alt="slide1"
+                  />
+                  <h4>الحرس الملكي يجوب الشوارع بالحسيمة</h4>
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="https://i1.hespress.com/wp-content/uploads/2022/11/Bourita-Jose-Manuel-Albares.jpg"
+                    alt="slide1"
+                  />
+                  <h4>سبتة ومليلية في علاقات المغرب وإسباني</h4>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="las la-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="las la-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+  <br/>    
+    </div>
+  <!-- end navbar -->
+
+  <div class="container">
+      <div style="display:flex;flex-direction:row;flex-wrap:wrap;width:100%"  >
+        <!-- side -->
+        <div id="card3"    class=" card" >        
+          <div class="card-title"  style="color: #190a8a"> 
+              ساعة 24  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+          </svg></div>
+          <ul class="overflow-auto" id="id15">
+            
+            </ul>
+          
+        </div>
+        <!-- end side -->
+        <!-- image -->
+        <div id="card2" class="card" style=" width: 730px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" onClick="()=>fLeft()" id="left" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+
+            </svg> <img src="./image/2.png" class="card-img-top" alt="..." id="img1" /> <svg 
+            id="rigth" onClick="()=>fRigth()"   xmlns="http://www.w3.org/2000/svg" width="40"   fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+
+
+          </svg>
+          <div id="point" style="text-align:center">  </div>
+          <div class="card-body">
+            <a href="" id="lien-pic"><p class="card-text">أوضح المتحدث أن الناطق الرسمي باسم الحكومة انطلقت فترة عطلته قبل أقل من أسبوعين، وسيستأنف العمل</p></a>
+          </div>
+        </div>
+        <!-- end image -->
+      </div>
+      <div style="display:flex;flex-wrap:wrap;flex-direction:row;width:100%" >
+        <div class="w3-card-4 w3-margin" id="w3cS0" >
+          <h3 style="background-color:#190a8a;color:white;padding:10px">   حوادث</h3>
+  <div class="w3-display-container w3-text-white">
+    <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-marrakech-haouz34.jpeg" alt="Lights" style="width:100%;height:300px" />
+    <div class="w3-large w3-display-bottomleft w3-padding"  style=" background-color:black">متابعة مستمرة وحصرية من مراسلي cnn حول العالم لأهم الأخبار والأحداث من أستراليا وآسيا وروسيا وأوروبا وأفريقيا إلى كندا والولايات المتحدة ودول أمريكا الجنوبية.</div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-center">
+      <p>المغرب يقبل المساعدات من الإمارات وقطر وإسبانيا والمملكة المتحدة</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier2.jpeg" alt="sun" style="width:80px" />
+    </div>
+    <div class="w3-third w3-center">
+      <p>دول أجنبية تتضامن مع المغرب بإرسال فرق متخصصة في البحث والإنقاذ</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier.jpg" alt="cloud" style="width:80px"/>
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <p>الحكومة تحدد أولويات الصندوق الاستثنائي لمواجهة تداعيات "زلزال الحوز"</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-marrakech-haouz-obseques.jpg" alt="clouds" style="width:80px" />
+    </div>
+  </div>
+</div>
+<div class="w3-card-4 w3-margin" id="w3cS0">
+          <h3 style="background-color:#190a8a;color:white;padding:10px">   فن وثقافة</h3>
+  <div class="w3-display-container w3-text-white">
+    <img id="imgCategorie" src="https://i1.hespress.com/wp-content/uploads/2023/09/maroc-tremblement-palestine-2.jpg" alt="Lights" style="width:100%;height:300px" />
+    <div class="w3-large w3-display-bottomleft w3-padding"  style=" background-color:black">متابعة مستمرة وحصرية من مراسلي cnn حول العالم لأهم الأخبار والأحداث من أستراليا وآسيا وروسيا وأوروبا وأفريقيا إلى كندا والولايات المتحدة ودول أمريكا الجنوبية.</div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-center">
+      <p>المغرب يقبل المساعدات من الإمارات وقطر وإسبانيا والمملكة المتحدة</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier2.jpeg" alt="sun" style="width:80px" />
+    </div>
+    <div class="w3-third w3-center">
+      <p>دول أجنبية تتضامن مع المغرب بإرسال فرق متخصصة في البحث والإنقاذ</p>
+      <img id="imgCategorie" src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier.jpg" alt="cloud" style="width:80px"/>
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <p>الحكومة تحدد أولويات الصندوق الاستثنائي لمواجهة تداعيات "زلزال الحوز"</p>
+      <img id="imgCategorie" src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-marrakech-haouz-obseques.jpg" alt="clouds" style="width:80px" />
+    </div>
+  </div>
+</div>
+<div class="w3-card-4 w3-margin" id="w3cS0">
+          <h3 style="background-color:#190a8a;color:white;padding:10px">   سياسة</h3>
+  <div class="w3-display-container w3-text-white">
+    <img src="https://i1.hespress.com/wp-content/uploads/2023/09/sang-copie-9.jpg" alt="Lights" style="width:100%;height:300px" />
+    <div class="w3-large w3-display-bottomleft w3-padding"  style=" background-color:black">متابعة مستمرة وحصرية من مراسلي cnn حول العالم لأهم الأخبار والأحداث من أستراليا وآسيا وروسيا وأوروبا وأفريقيا إلى كندا والولايات المتحدة ودول أمريكا الجنوبية.</div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-center">
+      <p>المغرب يقبل المساعدات من الإمارات وقطر وإسبانيا والمملكة المتحدة</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier2.jpeg" alt="sun" style="width:80px" />
+    </div>
+    <div class="w3-third w3-center">
+      <p>دول أجنبية تتضامن مع المغرب بإرسال فرق متخصصة في البحث والإنقاذ</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier.jpg" alt="cloud" style="width:80px"/>
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <p>الحكومة تحدد أولويات الصندوق الاستثنائي لمواجهة تداعيات "زلزال الحوز"</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-marrakech-haouz-obseques.jpg" alt="clouds" style="width:80px" />
+    </div>
+  </div>
+</div>
+<div class="w3-card-4 w3-margin" id="w3cS0">
+          <h3 style="background-color:#190a8a;color:white;padding:10px">   اقتصاد</h3>
+  <div class="w3-display-container w3-text-white">
+    <img src="https://i1.hespress.com/wp-content/uploads/2023/09/Les-paysans-r-coltent-leurs-r-coltes-agricoles.jpg" alt="Lights" style="width:100%;height:300px" />
+    <div class="w3-large w3-display-bottomleft w3-padding"  style=" background-color:black">متابعة مستمرة وحصرية من مراسلي cnn حول العالم لأهم الأخبار والأحداث من أستراليا وآسيا وروسيا وأوروبا وأفريقيا إلى كندا والولايات المتحدة ودول أمريكا الجنوبية.</div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-third w3-center">
+      <p>المغرب يقبل المساعدات من الإمارات وقطر وإسبانيا والمملكة المتحدة</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier2.jpeg" alt="sun" style="width:80px" />
+    </div>
+    <div class="w3-third w3-center">
+      <p>دول أجنبية تتضامن مع المغرب بإرسال فرق متخصصة في البحث والإنقاذ</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-alhaouz-pompier.jpg" alt="cloud" style="width:80px"/>
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <p>الحكومة تحدد أولويات الصندوق الاستثنائي لمواجهة تداعيات "زلزال الحوز"</p>
+      <img src="https://i1.hespress.com/wp-content/uploads/2023/09/tremblement-de-terre-marrakech-haouz-obseques.jpg" alt="clouds" style="width:80px" />
+    </div>
+  </div>
+</div>
+       </div>
+       <div >
+        <br />
+        <div class="w3-card-4 w3-margin"  style="padding: 10px;"> <h3  style="background-color:#190a8a;color:white;padding:10px;text-align:center">TV   <span>صدى المواطن</span> </h3>
+         <div class="card-group" id="card-group"></div>
+    <!-- <div class="card">
+     
+      <iframe width="853" height="200" src="https://www.youtube.com/embed/lcZDWo6hiuI" frameborder="0" class="card-img-top" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
+      <div class="card-body">
+        <h5 class="card-title">الأخبار</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      
+      <iframe width="853"  height="200" src="https://www.youtube.com/embed/qwSAUGIj5Gk
+      " title="آخر الأخبار | 03 - 09 - 2023 | تقديم هشام جابر | يمن شباب" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="card-img-top" ></iframe> 
+      <div class="card-body">
+        <p class="card-title">  الهلال المغربي للاغاثة والانقاد</p>
+        <p class="card-text">منضمة الهلال المغربي للاغاثة والانقاد اولاد تايمة فريق متكامل
+          منضمة الهلال المغربي للاغاثة والانقاد اولاد تايمة فريق متكامل بقوة والدعم النفسي والمساعدات </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+    
+      <iframe width="853"  height="200" src="https://www.youtube.com/embed/eZgotJeJRtI      " class="card-img-top"  ></iframe>
+      <div class="card-body">
+        <h5 class="card-title">      مساعدات الهلال المغربي للاغاثة والانقاد     </h5>
+        <p class="card-text">
+          مساعدات الهلال المغربي للاغاثة والانقاد المقدمة لساكنة الحوز المتضررة من الزلزال </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    
+  </div><br />
+  <div class="card-group">
+    <div class="card">
+     
+      <iframe width="853" height="200" src="https://www.youtube.com/embed/lcZDWo6hiuI" frameborder="0" class="card-img-top" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      <div class="card-body" style="height:fit-content">
+        <h5 class="card-title">الأخبار</h5>
+        <p class="card-text">صدى المواطن:  مساعدات الهلال المغربي للاغاثة والانقاد.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <iframe width="853"  height="200" src="https://www.youtube.com/embed/YWr4hXDfQDg" title="آخر الأخبار | 03 - 09 - 2023 | تقديم هشام جابر | يمن شباب" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="card-img-top" ></iframe> 
+      <div class="card-body">
+        <h5 class="card-title">الأخبار</h5>
+        <p class="card-text">النشرة الصباحية | مواجهات عنيفة في "ذبيان" السورية.. والغابون تستعد لـ"تنصيب" الرئيس</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <iframe width="853"  height="200" src="https://www.youtube.com/embed/uhgWVTkNCFE" class="card-img-top"  ></iframe>
+      <div class="card-body">
+        <h5 class="card-title">الأخبار</h5>
+        <p class="card-text">الخلاف يتصاعد بين حزب المؤتمر اليمني والحوثي.. ما القصة؟لخلاف يتصاعد بين حزب المؤتمر اليمني والحوثي.. ما القصة؟  </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+     -->
+  </div>
+   <br></div>
+  <br/>
+  <div class="w3-card-4 w3-margin"  ><h3  style="background-color:#190a8a;color:white;padding:10px;text-align:center">متفرقات</h3>
+  <section>
+    
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/telechargement (1).jpeg" />
+
+            </div>
+            <div class="content"  >
+                <div>
+                    <h1>
+                        المغرب يسجل أكبر عدد لحالات الطلاق</h1> <br/> <br/>
+                    <p>بدو أن المغاربة حريصون على ممارسة "أبغض الحلال" كلما تأزمت العلاقة الزوجية بين الرجل والمرأة، والدليل أن معطيات رسمية حديثة تتحدث عن معدل يصل إلى أكثر من 800 حالة طلاق في اليوم الواحد.
+
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/telechargement (2).jpeg" />
+
+            </div>
+            <div class="content">
+                <div>
+                    <h1>32.8 مليون شخص هاجروا من بلدانهم في المنطقة العربية </h1><br/><br/>
+                    <p>أما فيما يتعلق بالهجرة إلى الخارج، فقد هاجر 32.8 مليون شخص أو أجبروا على النزوح من البلدان العربية في عام 2020 حسب التقديرات، بينما مكث 44 في المائة منهم في المنطقة. ويمثل اللاجئون من حيث عددهم مجموعة بارزة حيث بلغت نسبة اللاجئين القادمين </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/telechargement (3).jpeg" />
+
+            </div>
+            <div class="content">
+                <div>
+                    <h1>للإدمان ودعوة للاعتراف به كمرض</h1><br/><br/>
+                    <p>كشف المجلس الاقتصادي والاجتماعي والبيئي في المغرب، المخاطر المتزايدة التي يسببها الإدمان في المجتمع، داعيا إلى الاعتراف بالإدمان، سواء باستخدام مواد مخدرة أو ممارسة إدمانية، بوصفه "مرضا يتطلب علاجا"، وقابلا من الناحية القانونية للتكفل به من طرف هيئات الضمان والتأمين الصحي والحماية الاجتماعية.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/telechargement (4).jpeg" />
+
+            </div>
+            <div class="content">
+                <div>
+                    <h1>التمييز العنصري على الاستقرار السياسي</h1> <br/><br/>
+                    <p>يعتبر التمييز العنصري بما يشمله من خرق لحقوق بعض الأفراد أو الجماعات أحد أسباب عدم الاستقرار في النظم السياسية، وبخاصة في الدول التي تتعدد فيها العرقيات الإثنية أو الدينية</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/telechargement.jpeg" />
+
+            </div>
+            <div class="content">
+                <div>
+                    <h1>الرياضة</h1><br/><br/>
+                    <p>الرياضة هي مجهود جسدي عادي أو مهارة تُمَارَس بموجب قواعد مُتفق عليها بهدف الترفيه أو المنافَسة أو المُتعة أو التميز أو تطوير المهارات أو تقوية الثقة بالنفس أو الجسد. واختلاف الأهداف من حيث اجتماعها أو انفرادها يميز الرياضات، بالإضافة إلى ما يضيفه اللاعبون أو الفِرَق من تأثيرٍ على رياضاتهم.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/images (1).jpeg" />
+
+            </div>
+            <div class="content">
+                <div>
+                    <h1> التدريس خلال السنوات العشر الماضية</h1><br/><br/>
+                    <p>لقد غيَّرت الأجهزة الرقمية كل شيء تقريبا. فهي تتيح الوصول المباشر إلى الموارد والمعلومات والوسائط الرقمية من ملفات صوتية وصور وفيديوهات، وتدعم التفاعلية وتخصيص التعلم (الفارقية كمثال)… و كنتيجة لذلك أصبح استخدام الفيسبوك وتويتر وبينترست ويوتيوب وغيرهم جُزءا من الممارسة الصفية اليومية.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section></div>
+
+
+    </div>
+    <div  style="width:100%">
+           
+      <br/>
+    
+    <div style="display:flex;flex-wrap:wrap;flex-direction:row"  >
+
+<div class="card" id="w3cS1"    >
+  <h6 class="card-header" style="text-align: center;background-color: #190a8a;color:white"  >
+    الأكثر مشاهدة
+  </h6>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">سطع نجمها في السياسة و الفن..كليلة بونعيلات ضيفة برنامج “سوشل ستار”</li>
+    <li class="list-group-item">إسرائيل تعلن إيقاف تصدير البضائع من قطاع غزة للضفة</li>
+    <li class="list-group-item">“فليك” يعيد مولر لتشكيلة ألمانيا لأول مرة منذ “خسارة قطر “</li>
+    <li class="list-group-item">زيارة تفقدية للمدير الإقليمي لللتعليم بصفرو للمؤسسات التعليمية .</li>
+    <li class="list-group-item">“فليك” يعيد مولر لتشكيلة ألمانيا لأول مرة منذ “خسارة قطر “</li>
+    <li class="list-group-item">“فليك” يعيد مولر لتشكيلة ألمانيا لأول مرة منذ “خسارة قطر “</li>
+    <li class="list-group-item">سطع نجمها في السياسة و الفن..كليلة بونعيلات ضيفة برنامج “سوشل ستار”</li>
+    <li class="list-group-item">إسرائيل تعلن إيقاف تصدير البضائع من قطاع غزة للضفة</li>  
+    <li class="list-group-item">إسرائيل تعلن إيقاف تصدير البضائع من قطاع غزة للضفة</li>
+  </ul>
+</div> 
+ 
+<div class="card" id="w3cS1"  >
+  <h6 class="card-header " style="text-align: center;background-color: #190a8a;color:white" >
+    اقرأ أيضا
+  </h6>
+  <ul class="list-group list-group-flush">
+   <a href=""> <li class="list-group-item"> الدار البيضاء - الموسم الفلاحي 2023-2024 يبدو واعدا</li>
+  </a>
+  <a href="">  <li class="list-group-item">الرباط - الدخول المدرسي... مستجدات تصبو إلى الارتقاء بجودة المدرسة العمومية</li></a>
+   <a href=""> <li class="list-group-item">الرباط - الدخول السياسي.. ملفات استراتيجية تؤطر عمل الحكومة في المرحلة المقبلة</li></a>
+  <a href=""> <li class="list-group-item"> الرباط - المغرب يراهن على حلول مبتكرة لمواجهة الإجهاد المائي</li></a> 
+   <a href=""> <li class="list-group-item"> الدار البيضاء - مونديال بودابست: ألعاب القوى المغربية تستعيد بريقها وتحقق أفضل حصيلة لها منذ دورة هلسنكي 2005</li></a>
+   <a href=""> <li class="list-group-item"> الدار البيضاء - الموسم الفلاحي 2023-2024 يبدو واعدا</li>
+   </a><a href="">  <li class="list-group-item">الرباط - الدخول المدرسي... مستجدات تصبو إلى الارتقاء بجودة المدرسة العمومية</li></a>
+    <a href=""> <li class="list-group-item">الرباط - الدخول السياسي.. ملفات استراتيجية تؤطر عمل الحكومة في المرحلة المقبلة</li></a>
+   <a href=""> <li class="list-group-item"> الرباط - المغرب يراهن على حلول مبتكرة لمواجهة الإجهاد المائي</li> </a>
+  </ul>
+</div>
+<div class="w3-col m3" id="w3cS1"  >
+
+        <div class="w3-card w3-round w3-white">
+          <h4 class="card-header "  style="text-align: center;background-color: #190a8a;color:white;height:30px">الأهتمامات  </h4><br />
+          <div class="w3-container">   
+            <p>الأهتمامات</p>
+            <p>
+              <span class="w3-tag w3-small w3-theme-d5">اخبار</span>
+              <span class="w3-tag w3-small w3-theme-d4">العاب</span>
+              <span class="w3-tag w3-small w3-theme-d3">رياضة</span>
+              <span class="w3-tag w3-small w3-theme-d2">سياسة</span>
+              <span class="w3-tag w3-small w3-theme-d1">احدات</span>
+              <span class="w3-tag w3-small w3-theme">ماكولات</span>
+              <span class="w3-tag w3-small w3-theme-l1">اقتصاد</span>
+              <span class="w3-tag w3-small w3-theme-l2">فن</span> 
+            </p> 
+          </div>
+        </div>
+        <br/>
+        
+      
+        <br/>
+          
+      </div> 
+      <div class="w3-col m3" id="w3cS1"  >
+        
+        <div class="w3-card w3-round w3-white">  
+           <h4 class="card-header "  style="text-align: center;background-color: #190a8a;color:white;height:30px">أراء ومواقف</h4><br />
+          <div class="w3-container">   
+           <p  >  ستراليا وآسيا وروسيا وأوروبا وأفريقيا إلى كندا والولايات المتحدة ودول أمريكا الجنوبية.</p>
+           <p>  April 1, 1988</p>
+          </div>
+        </div>
+        
+          
+      </div> 
+</div> 
+        </div>
+        <!-- footer -->
+        <div><br />
+          <footer>
+              
+          <div class="content-footer " id="cl1" >
+            <div class="bloc footer-services">
+              <!-- <h2 style="color: rgb(228, 118, 118)">الخدمات</h2><br/> -->
+              <!-- <ul class="services-list" id="cl4">
+                <li><a >Hosting</a></li><br/>
+                <li><a >Domain Name</a></li><br/>
+                <li><a >E-commerce</a></li><br/>
+                <li><a >Machine Learning</a></li><br/>
+                <li><a >Finances</a></li><br/>
+                <li><a >Start-up</a></li><br/>
+              </ul> -->
+            </div>
+    
+           
+     <div class="center box"  >
+      <h2 style="color: white">لتواصل معنا</h2><br/>
+  
+      <div class="content" id="cl2">
+          <div class="place"><a href="https://goo.gl/maps/AGNcxtktoWbHbQvZ8" >
+              <span class="fas fa-map-marker-alt " style="color: white;"></span>
+              <span class="text" style="color: white;">AV Biranzarane  </span></a><br/><br/>
+          </div>
+          
+      <div class="phone">
+        
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">05.32.08.41.21 </span><br/><br/>
+          </div>
+      
+          
+      <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="email" s >Contact@1000-annonces.ma</span>
+          </div><br/>
+          <span class="fas fa-globe-americas"></span>
+              <span>1000-annonces.ma</span>
+      </div>
+      </div>
+            <div class="bloc footer-schedule">
+              <!-- <h2 style="color: rgb(228, 118, 118)">اوقات العمل</h2><br/> -->
+              <!-- <ul class="schedule-list" id="cl5">
+                <li>  8:30-2:00 الاثنين✔️</li><br/>
+                <li>  8:30-2:00 الثلاثاء✔️</li><br/>
+                <li>  8:30-2:00 الاربعاء✔️</li><br/>
+                <li>  8:30-2:00 الخميس✔️</li><br/>
+                <li>  8:30-2:00 الجمعة️✔️</li><br/>
+                <li>  8:30-2:00 السبت ❌</li><br/>
+                <li>  8:30-2:00 الاحد ❌</li><br/>
+              </ul> -->
+            </div>
+    
+            <div class="bloc footer-medias">
+              <h2 style="color:white">المواقع التواصل</h2><br/>
+              <ul class="media-list" id="cl3">
+                <li>
+                  <a  href="https://fr-fr.facebook.com/">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="facebook"
+                      class="svg-inline--fa fa-facebook fa-spin fa-3x"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                      ></path>
+                    </svg>
+                    Facebook </a  >
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/sadamowatine/">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="instagram"
+                      class="svg-inline--fa fa-instagram fa-spin fa-3x"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+  
+                      <path
+                        fill="currentColor"
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      ></path>
+                    </svg>
+                    Instagram</a >
+                </li>
+             
+  
+                
+                <li>
+                  <a href="https://twitter.com/SMowatine53030" >
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="twitter"
+                      class="svg-inline--fa fa-twitter fa-spin fa-3x"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                      ></path>
+                    </svg>
+                    Twitter</a
+                  >
+                </li>
+  
+                 
+                  
+                <li>
+                  <a href="https://www.youtube.com/@SadaMowatine/featured">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="youtube"
+                      class="svg-inline--fa fa-youtube fa-spin fa-3x"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                      ></path>
+                    </svg>
+                    Youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="bloc footer-schedule" id="ft">
+              <h2 style="color: white"> الموقع  </h2><br/>
+              <ul class="schedule-list" id="cl5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.426268326271!2d-4.999620725015156!3d34.032935073164325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8b57c4616b29%3A0x269e3d142132e863!2s1000-Annonces!5e0!3m2!1sen!2sma!4v1693828485967!5m2!1sen!2sma" width="300" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </ul>
+            </div>
+          </div>
+  
+        </footer></div>
+  </div>
+</body>
+  <script>
+//articles
+let images= [];
+let xhr=new XMLHttpRequest();
+xhr.open("GET","http://localhost/sada/article/");
+xhr.send();
+xhr.onreadystatechange=()=>{
+if(xhr.status==200 && xhr.readyState==4){ 
+ images=JSON.parse(xhr.responseText) ;
+}
+}
+//videos
+let videos= [];
+let xh=new XMLHttpRequest();
+xh.open("GET","http://localhost/sada/article/videos.php");
+xh.send();
+xh.onreadystatechange=()=>{
+if(xh.status==200 && xh.readyState==4){  
+ videos=JSON.parse(xh.responseText) ;
+}
+}
+//opinion 
+let opinions= [];
+let xhr=new XMLHttpRequest();
+xhr.open("GET","https://sadamowatine.ma/php/sada/opinion/");
+xhr.send();
+xhr.onreadystatechange=()=>{
+if(xhr.status==200 && xhr.readyState==4){ 
+ opinions=JSON.parse(xhr.responseText) ;
+}
+}
+setTimeout(()=>{    
+  new Glide('.glide', {
+    type: 'carousel',
+    perView: 9,
+    focusAt: 'center',
+    autoplay: 3000,
+    arrows: {
+      prev: '.glide__arrow--left',
+      next: '.glide__arrow--right',
+    },
+  }).mount();
+  //side
+  let s=""; 
+  for(let i=0;i<images.length;i++){
+        let x=new Date( images[i].data);
+         s+='<a href=" /404.html" key='+images[i].image+'><li style="display: flex;justify-content:right; ">  <span> <span class="marquee" > '+images[i].titre+'  </span>  </span> <span  style="padding-left: 5px;padding-right: 5px" class="d">'+ x.getHours()+":"+x.getMinutes()+' </span> </li></a>';
+       }
+     
+       document.getElementById('id15').innerHTML=s;
+       //fin side
+
+     s="";
+     let data=images.filter((e,j)=>j>images.length-11);
+       for(let i=0;i<data.length;i++){
+             
+              s+='<span id="'+data[i].id+'"  style="background-color:gray;min-width:10px;border-radius:50%;color:gray;margin:10px">--</span> ';
+            }
+            document.getElementById('point').innerHTML=s;
+//images
+//videos
+
+let v=videos.filter(e=>{let vi=new Date( e.dataD);let now=new Date();if(vi.getFullYear()==now.getFullYear() && vi.getDay()==now.getDay()) return e});
+let vid=""; 
+for(let i=0;i<v.length;i++){
+      
+       vid+='<div class="card"   width="353px"> <iframe width="853px" height="200" src="'+v[i].video+'" frameborder="0" class="card-img-top" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <div class="card-body"> <h5 class="card-title"> '+v[i].titre+'</h5>  <p class="card-text">'+v[i].description+'</p> <p class="card-text"><small class="text-body-secondary">'+v[i].dataD+'</small></p> </div>   </div>';
+     }
+     document.getElementById('card-group').innerHTML=vid;  
+
+},1000)
+     
+ 
+            let click=false;
+            let t=null;
+            let i=-1;
+           function b(){
+              t=new Date();
+            }
+document.getElementById("left").addEventListener("click",           
+ function fLeft() {
+  s="";
+  let data=images.filter((e)=>e.section==2);
+  for(let i=0;i<data.length;i++){
+        
+         s+='<span id="'+data[i].id+'"  style="background-color:gray;min-width:10px;border-radius:50%;color:gray;margin:1px">--</span> ';
+       }
+       document.getElementById('point').innerHTML=s;
+                     click=true;
+                     t=new Date();
+                     i++;
+                     if(i==data.length) i=0; 
+                      document.getElementById('img1').setAttribute('src', data[i].image); 
+                      document.getElementById('lien-pic').setAttribute('href',"/"+data[i].type+"/"+data[i].id);
+                      document.getElementById('lien-pic').innerHTML=data[i].description;
+                      document.getElementById(String(data[i].id) ).style.backgroundColor="black";
+                      document.getElementById(String(data[i].id) ).style.color="black";
+                      data.forEach(element => {
+                       if(element.id!=data[i].id) {document.getElementById(String(element.id)).style.backgroundColor="gray";document.getElementById(String(element.id)).style.color="gray";}
+                     });
+               }   
+)  
+document.getElementById("rigth").addEventListener("click",     
+ function fRigth() {
+  s="";
+  let data=images.filter((e)=>e.section==2);
+  for(let i=0;i<data.length;i++){
+        
+         s+='<span id="'+data[i].id+'"  style="background-color:gray;min-width:10px;border-radius:50%;color:gray;margin:1px">--</span> ';
+       }
+       document.getElementById('point').innerHTML=s;
+                    click=true;
+                    t=new Date();
+                    i--;
+                    if(i<0 ) i=data.length-1; 
+                     document.getElementById('img1').setAttribute('src', data[i].image); 
+                     document.getElementById('lien-pic').setAttribute('href',"/"+data[i].type+"/"+data[i].id);
+                     document.getElementById('lien-pic').innerHTML=data[i].description;
+                     document.getElementById(String(data[i].id) ).style.backgroundColor="black";
+                     document.getElementById(String(data[i].id) ).style.color="black";
+                     data.forEach(element => {
+                       if(element.id!=data[i].id) {document.getElementById(String(element.id)).style.backgroundColor="gray";document.getElementById(String(element.id)).style.color="gray";}
+                     });
+                 }
+)   
+                 setInterval(()=>{
+                  s="";
+                  let data=images.filter((e)=>e.section==2);
+                
+                  for(let i=0;i<data.length;i++){
+                        
+                         s+='<span id="'+data[i].id+'"  style="background-color:gray;min-width:10px;border-radius:50%;color:gray;margin:1px">--</span> ';
+                       }
+                       document.getElementById('point').innerHTML=s;
+                if(click==false){
+                  i--;
+                          if(i<0 ) i=data.length-1;  
+                           document.getElementById('img1').setAttribute('src',data[i].image); 
+                           document.getElementById('lien-pic').setAttribute('href',"/404" );
+                           // document.getElementById('lien-pic').setAttribute('href',"/"+data[i].type+"/"+data[i].id);
+                           document.getElementById('lien-pic').innerHTML=data[i].description;
+                           document.getElementById(String(data[i].id) ).style.backgroundColor="black";
+                           document.getElementById(String(data[i].id) ).style.color="black";
+                           data.forEach(element => {
+                             if(element.id!=data[i].id) {document.getElementById(String(element.id)).style.backgroundColor="gray";document.getElementById(String(element.id)).style.color="gray";}
+                           });
+                }
+                else{
+                  let d=new Date();
+                 let sD=d.getSeconds();
+                 let sT=t.getSeconds();
+                 let mD=d.getMinutes();
+                 let mT=t.getMinutes();
+                 let diff=0;
+                 if(mD>mT){
+                  diff=(60-sT)+sD;
+                 }
+                 else if(mD==mT){
+                  diff=sD-sT;
+                 }
+                 if(diff>=10) click=false;
+                }}
+                    ,3000);
+//fin images
+   </script>

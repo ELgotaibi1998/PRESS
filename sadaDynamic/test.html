@@ -1,0 +1,14 @@
+
+<script>
+    let images= [];
+let xhr=new XMLHttpRequest();
+xhr.open("GET","https://sadamowatine.ma/php/sada/article/",true);
+xhr.withCredentials = true;
+xhr.send();
+xhr.onreadystatechange=()=>{
+if(xhr.status==200 && xhr.readyState==4){ 
+ images=JSON.parse(xhr.responseText) ;
+ console.log(images);
+}
+}
+</script>

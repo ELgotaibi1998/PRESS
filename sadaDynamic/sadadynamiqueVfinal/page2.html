@@ -1,0 +1,549 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./image/sada.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+         
+        <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <title> صدى المواطن</title>
+  </head>
+
+ 
+ <!-- navbar -->
+    <div>
+         <nav class="navbar  fixed-top"  style="background-color: #190a8a">
+        <div class="container-fluid"  >
+        <span id='navSpan'>
+           
+            <a href="https://web.facebook.com/profile.php?id=61551358856322">
+            <button class="btn btn-secondary">
+      <svg class="bi bi-facebook sociaux " xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"   viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+            </button></a>
+            
+              <a href="https://www.linkedin.com/in/sada-mowatine-535317291/">
+              <button class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+              </button></a>
+               
+                <a href="https://www.instagram.com/sadamowatine/">
+                <button class="btn btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </button></a>
+                 
+                <a href="https://twitter.com/SMowatine53030">
+                  <button class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                  </button></a>
+               
+                  <a href="https://www.youtube.com/@SadaMowatine/featured">
+                  <button class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                    </svg>
+                  </button></a></span>
+                    <form class="d-flex mt-3" role="search" id='form'>
+            <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search"/>
+            <button class="btn btn-secondary" type="submit">بحث</button>
+          </form>
+          <a class="navbar-brand" href="#"><a class="navbar-brand" href="#" id="id2" style="color: white"> <img src="./image/sada.jpeg"   width="100px"  /></a></a>  
+          
+          <button class=" btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" style="  color: white" width="35" height="35" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16" >
+  <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+         
+          </button>
+          <div class="offcanvas offcanvas-end  " style="background-color: #100563;color:white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header " style="color:white">
+              <h5 class="offcanvas-title"   style="color:white">صدى المواطن</h5>
+              <button type="button" class="btn-close btn-close-white"   data-bs-dismiss="offcanvas" aria-label="Close"></button>
+             
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="color:white">
+             
+                
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=science" style="color:white">العلوم <img src="https://th.bing.com/th/id/R.c77a3a6a7a779178bdc357808b895e90?rik=tbCvV%2bTdnxIQCA&pid=ImgRaw&r=0" alt=""  style="width:20px"/></a ></h5>
+                    </li> 
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=societe" style="color:white">المجتمع <img src="https://th.bing.com/th/id/R.14dfdd35187abde1d1adc3058dcce375?rik=S7IfRdTeE2ZFWA&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=region" style="color:white">الجهات <img src="https://th.bing.com/th/id/OIP.0DfDx_uJF-3nHjDJjIWT_gHaIy?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=art  " style="color:white">فن وثقافة <img src="https://th.bing.com/th/id/OIP.Nd9rSGRhXqyInkP82Q2yDwHaHi?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=world" style="color:white">   أخبار العالم <img src="https://thumbs.dreamstime.com/b/news-world-globe-earth-vector-icon-web-newsletter-app-symbol-news-world-globe-vector-icon-web-newsletter-app-linear-symbol-139070657.jpg" alt="" style="width:20px" /></a ></h5>
+                    </li>
+                  
+                  
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=sport " style="color:white">الرياضة <img src="https://www.marathontrainingacademy.com/wp-content/uploads/2016/05/noun_61513.png" alt=""  style="width:20px;color:white;background-color:white"/></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=politique" style="color:white">السياسة <img src="https://th.bing.com/th/id/R.9c8aa02d3e624b668ea7c4f285ece492?rik=U8QzvTFG%2bq%2fe1Q&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link" href="./page2.html?x=economie" style="color:white">الأقتصاد  <img src="https://th.bing.com/th/id/OIP.zEZpEXOPKsbtRNoJSuAB9QHaHa?pid=ImgDet&rs=1" alt=""  style="width:20px"/></a ></h5>
+                    </li>
+                    <li class="nav-item"><h5>
+                      <a class="nav-link active" aria-current="page" href="./index.html" style="color:white">الرئيسية <i class="fa-sharp fa-solid fa-house fa-beat"></i></a></h5>
+                    </li>
+                    <li class="nav-item">
+                     
+                      <span  >
+                 
+                  <a href="https://web.facebook.com/profile.php?id=61551358856322">
+                  <button class="btn btn-secondary">
+            <svg class="bi bi-facebook sociaux " xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"   viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+                  </button></a>
+                  
+                    <a href="https://www.linkedin.com/in/sada-mowatine-535317291/">
+                    <button class="btn btn-secondary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </button></a>
+                     
+                      <a href="https://www.instagram.com/sadamowatine/">
+                      <button class="btn btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                      </button></a>
+                       
+                      <a href="https://twitter.com/SMowatine53030">
+                        <button class="btn btn-secondary">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                        </button></a>
+                     
+                        <a href="https://www.youtube.com/@SadaMowatine/featured">
+                        <button class="btn btn-secondary">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                          </svg>
+                        </button></a></span>
+                  </li>
+                  </ul> 
+            </div>
+          </div>
+        </div>
+      </nav><br/><br/> 
+      <nav class="navbar navbar-expand-lg   " id="nav13">
+  <div class="container-fluid">
+      
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"  style="color:black">
+             
+                
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=science"  style="color:black">العلوم <img src="https://th.bing.com/th/id/R.c77a3a6a7a779178bdc357808b895e90?rik=tbCvV%2bTdnxIQCA&pid=ImgRaw&r=0" alt=""  style="width:20px"/></a ></h5>
+            </li> 
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=societe"  style="color:black">المجتمع <img src="https://th.bing.com/th/id/R.14dfdd35187abde1d1adc3058dcce375?rik=S7IfRdTeE2ZFWA&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=region"  style="color:black">الجهات <img src="https://th.bing.com/th/id/OIP.0DfDx_uJF-3nHjDJjIWT_gHaIy?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=art  "  style="color:black">فن وثقافة <img src="https://th.bing.com/th/id/OIP.Nd9rSGRhXqyInkP82Q2yDwHaHi?pid=ImgDet&rs=1" alt="" style="width:20px" /></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=world"  style="color:black">   أخبار العالم <img src="https://thumbs.dreamstime.com/b/news-world-globe-earth-vector-icon-web-newsletter-app-symbol-news-world-globe-vector-icon-web-newsletter-app-linear-symbol-139070657.jpg" alt="" style="width:20px" /></a ></h5>
+            </li>
+          
+          
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=sport "  style="color:black">الرياضة <img src="https://www.marathontrainingacademy.com/wp-content/uploads/2016/05/noun_61513.png" alt=""  style="width:20px;color:white;background-color:white"/></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=politique"  style="color:black">السياسة <img src="https://th.bing.com/th/id/R.9c8aa02d3e624b668ea7c4f285ece492?rik=U8QzvTFG%2bq%2fe1Q&pid=ImgRaw&r=0" alt="" style="width:20px" /></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link" href="./page2.html?x=economie"  style="color:black">الأقتصاد  <img src="https://th.bing.com/th/id/OIP.zEZpEXOPKsbtRNoJSuAB9QHaHa?pid=ImgDet&rs=1" alt=""  style="width:20px"/></a ></h5>
+            </li>
+            <li class="nav-item"><h5>
+              <a class="nav-link active" aria-current="page" href="./index.html"  style="color:black">الرئيسية <i class="fa-sharp fa-solid fa-house fa-beat"></i></a></h5>
+            </li>
+             
+          </ul> 
+    </div>
+  </div>
+</nav> 
+      <marquee  behavior="" direction="right" id="marquee"></marquee>     
+      <header>
+      
+      
+        <section class="slider-container">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides" id="img_slider_section">
+                 
+                 
+               
+              </ul>
+            </div>
+  
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="las la-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="las la-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+  <br/>    
+    </div>
+  <!-- end navbar -->
+  <div class="container">
+    <div style="display:flex;flex-direction:row;flex-wrap:wrap;width:100%"  >
+      <!-- side -->
+      <div id="card3" style="width: 275px;"    class=" card" >        
+        <div class="card-title"  style="color: #190a8a"> 
+            ساعة 24  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+        </svg></div>
+        <ul class="overflow-auto" id="id15">
+          
+          </ul>
+        
+      </div>
+      <!-- end side -->
+      <!-- image -->
+      <div class="w3-card-4   "  ><h3  style="background-color:#190a8a;color:white;padding:10px;text-align:center">جميع الاخبار اليوم  <strong id="type"  ></strong> </h3>
+            <div class="blog-section" id="h1"  >
+                <div class="section-content blog" id="h2">
+                                <!-- <div class="title" id="h3"><br />
+                                    <h1>جميع الاخبار اليوم  <span id="type"  ></span>   </h1>
+                                    
+                                </div><br /> -->
+                                <div class="cards" id="h4">    </div>
+
+                </div>
+            <br />
+            </div>
+
+      </div>
+         
+      <!-- end image -->
+
+
+
+    </div>
+
+ <!-- footer -->
+ <div><br />
+    <footer>
+        
+    <div class="content-footer " id="cl1" >
+      <div class="bloc footer-services">
+        <!-- <h2 style="color: white">الخدمات</h2><br/>
+        <ul class="services-list" id="cl4">
+          <li><a >Hosting</a></li><br/>
+          <li><a >Domain Name</a></li><br/>
+          <li><a >E-commerce</a></li><br/>
+          <li><a >Machine Learning</a></li><br/>
+          <li><a >Finances</a></li><br/>
+          <li><a >Start-up</a></li><br/>
+        </ul> -->
+      </div>
+
+     
+<div class="center box">
+<h2 style="color: white">لتواصل معنا</h2><br/>
+
+<div class="content" id="cl2">
+    <div class="place"><a href="https://goo.gl/maps/AGNcxtktoWbHbQvZ8"   style="color: white">
+        <span class="fas fa-map-marker-alt "></span>
+        <span class="text">AV Biranzarane  </span></a><br/><br/>
+    </div>
+    
+<div class="phone">
+  
+        <span class="fas fa-phone-alt"></span>
+        <span class="text">05.32.08.41.21 </span><br/><br/>
+    </div>
+
+    
+<div class="email">
+        <span class="fas fa-envelope"></span>
+        <span class="email" style="width: 200 px">Contact@1000-annonces.ma</span>
+    </div><br/>
+    <span class="fas fa-globe-americas"></span>
+        <span>1000-annonces.ma</span>
+</div>
+</div>
+      <div class="bloc footer-schedule">
+        <!-- <h2 style="color: white">اوقات العمل</h2><br/>
+        <ul class="schedule-list" id="cl5">
+          <li>  8:30-2:00 الاثنين✔️</li><br/>
+          <li>  8:30-2:00 الثلاثاء✔️</li><br/>
+          <li>  8:30-2:00 الاربعاء✔️</li><br/>
+          <li>  8:30-2:00 الخميس✔️</li><br/>
+          <li>  8:30-2:00 الجمعة️✔️</li><br/>
+          <li>  8:30-2:00 السبت ❌</li><br/>
+          <li>  8:30-2:00 الاحد ❌</li><br/>
+        </ul> -->
+      </div>
+
+      <div class="bloc footer-medias">
+        <h2 style="color: white">المواقع التواصل</h2><br/>
+        <ul class="media-list" id="cl3">
+          <li>
+            <a  href="https://fr-fr.facebook.com/">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="facebook"
+                class="svg-inline--fa fa-facebook fa-spin fa-3x"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                ></path>
+              </svg>
+              Facebook </a  >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sadamowatine/">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="instagram"
+                class="svg-inline--fa fa-instagram fa-spin fa-3x"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                ></path>
+              </svg>
+              Instagram</a >
+          </li>
+         
+
+          
+          <li>
+            <a href="https://twitter.com/SMowatine53030" >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="twitter"
+                class="svg-inline--fa fa-twitter fa-spin fa-3x"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                ></path>
+              </svg>
+              Twitter</a
+            >
+          </li>
+
+           
+            
+          <li>
+            <a href="https://www.youtube.com/@SadaMowatine/featured">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="youtube"
+                class="svg-inline--fa fa-youtube fa-spin fa-3x"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                ></path>
+              </svg>
+              Youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bloc footer-schedule" id="ft">
+        <h2 style="color: white"> الموقع  </h2><br/>
+        <ul class="schedule-list" id="cl5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.426268326271!2d-4.999620725015156!3d34.032935073164325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8b57c4616b29%3A0x269e3d142132e863!2s1000-Annonces!5e0!3m2!1sen!2sma!4v1693828485967!5m2!1sen!2sma" width="300" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+      </div>
+    </div>
+
+  </footer></div>
+
+
+  </div>
+
+
+
+    <script > 
+ //articles
+let images= [];
+let xhr=new XMLHttpRequest();
+xhr.open("GET","http://localhost/sada/article/");
+xhr.send();
+xhr.onreadystatechange=()=>{
+if(xhr.status==200 && xhr.readyState==4){ 
+ images=JSON.parse(xhr.responseText) ; 
+}
+} 
+//section
+let section= [];
+let xhs=new XMLHttpRequest();
+xhs.open("GET","http://localhost/sada/section_article/");
+xhs.send();
+xhs.onreadystatechange=()=>{
+if(xhs.status==200 && xhs.readyState==4){  
+  section=JSON.parse(xhs.responseText) ;
+}
+}
+//types
+let types= [];
+let ty=new XMLHttpRequest();
+ty.open("GET","http://localhost/sada/type/");
+ty.send();
+ty.onreadystatechange=()=>{
+if(ty.status==200 && ty.readyState==4){  
+  types=JSON.parse(ty.responseText) ;
+}
+}
+
+setTimeout(()=>{
+    //side
+    let s=""; 
+    for(let i=0;i<images.length;i++){
+          let x=new Date( images[i].data);
+           s+='<a href=" /404.html" key='+images[i].image+'><li style="display: flex;justify-content:right; ">  <span> <span class="marquee" > '+images[i].titre+'  </span>  </span> <span  style="padding-left: 5px;padding-right: 5px" class="d">'+ x.getHours()+":"+x.getMinutes()+' </span> </li></a>';
+         }
+       
+         document.getElementById('id15').innerHTML=s;
+         //fin side
+         // images glide__slide 
+  let slide="";
+  for(let i=images.length-1;i>-1;i--){
+    if(i==images.length-11) break;
+    slide+=' <li class="glide__slide">   <img src="'+images[i].image+'" alt="slide1" /> <h4>'+images[i].titre+ '</h4>    </li>';
+  }
+ document.getElementById('img_slider_section').innerHTML=slide;
+//end images glide__slide
+  //page 2
+
+  let ur=window.location.href;
+  console.log(ur);
+let k=ur.split("?")
+console.log(k[1].split("="));
+let n=k[1].split("=");
+console.log(types);
+ 
+//let m=["politique","economie","sport","world","art  ","جهات","مجتمع","علوم"];
+//if(m.find(e=>e==n)==undefined)     window.location.replace("/404");
+let id;
+let type;
+for(let i=0;i<types.length;i++){
+  if(n[1]==types[i].type){ 
+    type=types[i].typeArabe;
+    id=types[i].id;
+    break;
+  }
+}
+if(id==undefined)window.location.replace("./404.html");
+console.log(type);
+console.log(id);
+document.getElementById("type").innerHTML=type;
+let y="";
+//let img=section.
+let arti=images.filter(e=>e.type==id);
+console.log(  arti);
+for(let i=0;i<arti.length;i++){ 
+y+=" <div class='card' id='h5'  >    <div class='image-section'>  <img src="+arti[i].image+"  />    </div>    <div class='article' id='h6'>    <h2>"+  arti[i].titre+" </h2> </div><div class='blog-view' >    <a href='./page3.html?x="+arti[i].id+" ' class='botton'>للمزيد من المعلومات</a>    </div>    <div class='posted-date' id='h7'>    <p>"+arti[i].data+'   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>    </svg></p>    </div>    </div>';
+}
+document.getElementById("h4").innerHTML=y;
+},1000);
+
+
+/*        
+     
+//page 2
+    let ur=window.location.href;
+    console.log(ur);
+let k=ur.split("?")
+console.log(k[1].split("="));
+let n=k[1].split("=");
+console.log(n);
+let m=["politique","economie","sport","world","art  ","جهات","مجتمع","علوم"];
+//if(m.find(e=>e==n)==undefined)     window.location.replace("/404");
+if(n[1]==m[0])
+document.getElementById("type").innerHTML="سياسة";
+let y="";
+for(let i=0;i<images.length;i++){
+
+    if(images[i].type==n[1]){ 
+y+=" <div class='card' id='h5'  >    <div class='image-section'>  <img src="+images[i].image+"  />    </div>    <div class='article' id='h6'>    <h2>"+  images[i].titre+" </h2> </div><div class='blog-view' >    <a href='./page3.html?x="+images[i].id+" ' class='botton'>للمزيد من المعلومات</a>    </div>    <div class='posted-date' id='h7'>    <p>"+images[i].date+'   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>    </svg></p>    </div>    </div>';
+}}
+document.getElementById("h4").innerHTML=y;
+
+*/
+
+       </script>
